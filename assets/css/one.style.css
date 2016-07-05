@@ -737,7 +737,7 @@ a:hover {
   font-size: 15px;
 }
 .contacts-section2 h2 {
-  color: #444;
+  color: #000;
   font: 28px "Open Sans",sans-serif;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -756,6 +756,23 @@ a:hover {
   font-weight: 600;
   margin: 0 0 5px;
 }
+
+.contacts-section2 h3 {
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0 0 5px;
+  color: #000;
+}
+
+.contacts-section2 p {
+  font-weight: 200;
+  color: #fff;
+}
+
+.contacts-section2 a {
+  font-weight: 200;
+}
+
 
 .footer-simple {
   padding: 20px 0;
