@@ -52,7 +52,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
 
 	<!--=== Header ===-->
-	<nav class="one-page-header one-page-header-style-2 navbar navbar-default navbar-fixed-top" role="navigation">
+	<nav class="one-page-header one-page-header-style-2 navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="menu-container page-scroll">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -98,7 +98,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 	</nav>
 	<!--=== End Header ===-->
 
-	<!-- Promo block BEGIN -->
+	<!-- ==Promo block BEGIN == -->
 	<section class="promo-section" id="intro">
 		<!-- Fullscreen Static Image BEGIN -->
 		<div class="fullscreen-static-image fullheight">
@@ -174,13 +174,10 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 		<div class="parallax-counter-v4 parallaxBg1" id="portfolio">
 			<div class="container content-xlg">
 				<div class="row">
-					<div class="col-md-12 col-xs-12 md-margin-top-50 md-margin-bottom-50"> 
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>	
+					<div class="col-md-9 col-xs-6 md-margin-top-50 md-margin-bottom-50"> </div>
+					<div class="col-md-3 col-xs-6"> 
+						<p> Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+					</div> 		
 					</div>
 				</div><!--/end row-->
 			</div><!--/end container-->
@@ -191,13 +188,16 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
 	<!-- Services Section -->
 	<section id="services">
+		
 		<div class="bg-color-purple">
 		<div class="container content-sm">
 			
 			<div class="row">
+				<div class="container">
 				<div class="title-v1">
 					<h2>Programs & Fees</h2>
 					<p>We offer fun and developmentally appropriate programs for children 6 months to 12 years.</p>
+				</div>
 				</div>
 			</div>
 
@@ -222,8 +222,8 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 						<p>Children 3 to 4 years of age<br>
 							8:30AM - 12:00PM</p>
 						<ul class="list-unstyled">
-							<li>3 days/week (M, W & F)<br> $170 /mth </li>
-							<li>2 days/week (Tue & Thurs)<br> $140 /mth</li>
+							<li>3 days/week <br>(M, W & F)<br> $170 /mth </li>
+							<li>2 days/week <br>(Tue & Thurs)<br> $140 /mth</li>
 							<li>Afternoon Care Available* <br> for children enrolled in the Preschool Programs<br> $18.50/afternoon
 							<br>
 							<span style="color: #aaa"><small>*Availability must be confirmed with the Director</small></span></li>
@@ -245,18 +245,19 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 			</div>
 			</div>
 		</div>
+		
 	</section>
 	<!-- End Services Section -->
 
-	<!-- Contacts BEGIN -->
+	<!-- CONTACT AND MAP BEGIN -->
 	<section id="contact" class="contacts-section2 bg-color-blue">
 		<div class="container content">
 			<div class="title-v1">
 				<h2>Contact Us</h2>
 				<p>Questions? No, Problem! We are here to assist you by answering any questions you may have about our Early Childhood & After School Centre. We know that choosing the right place for your child can be a difficult decision, so feel free to ask us any questions you may have!</p>
-			</div>
+			</div> <!-- end title -->
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<h3>Director of Early Childhood & Elementary Education</h3>
 						<p>Reta-Ann Best</p><br>
 							
@@ -269,29 +270,28 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 			  			<p><i class="fa fa-fax"></i> F: 506.459.6148</p>
 			  			<p><i class="fa fa-envelope-o"></i> E: <a href="mailto:eclc@fcae.ca">eclc@fcae.ca</a></p>
           
-			 					</div>
-				<div class="col-md-6">
-          <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-          				 <div class="responsive-iframe-container"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2773.2862365562!2d-66.61764459999999!3d45.96554219999976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca418b15cc906a1%3A0xab5199a7776cb5c6!2s778+Maclaren+Ave!5e0!3m2!1sen!2s!4v1403377790351" style="border:0"></iframe></div>
-
-	          				
-          				</div>
-		  			</div>
-			</div><!-- end row -->	
-		</div>
+			 	</div><!-- end col -->
+				<div class="col-md-8">
+          			<div class="embed-responsive embed-responsive-4by3"> 
+			  			<div id="map-container" class="embed-responsive-item">
+			  				<div class="responsive-iframe-container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.280773920919!2d-66.61999268293417!3d45.96535019958726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca418b161e999f7%3A0x490f7dda32693404!2sEarly+Childhood+Learning+Centre%2C+778+MacLaren+Ave%2C+Fredericton%2C+NB+E3A+3L7!5e0!3m2!1sen!2sca!4v1467754466897" style="border:0" allowfullscreen></iframe>
+				  			</div> <!-- end map -->
+			  			</div> <!-- end map container-->
+			  		</div> <!-- end responsive embed-->
+		  		</div><!-- end col -->
+			</div> <!-- end row -->
+		</div> <!-- end container -->
 	</section>
-
-
-	<!-- Contacts END -->
+	<!-- CONTACT AND MAP END -->
 
 	<!-- Footer simple BEGIN -->
 	<section class="footer-simple bg-color-dark">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-sm-4 col-xs-5">
-					<p>2016 &copy;  <a target="_blank" href="https:www.fcae.ca">Fredericton Christian Academy</a></p>
+				<div class="col-md-6 col-xs-6">
+					<p>2016 &copy;  <a target="_blank" href="https://www.fcae.ca">Fredericton Christian Academy</a></p>
 				</div>
-				<div class="col-md-6 col-sm-8 col-xs-7 text-right pull-right">
+				<div class="col-md-6  col-xs-6 text-right pull-right">
 					<ul class="social-icons">
 						<li><a class="social_facebook rounded-x" data-original-title="Facebook" href="https://www.facebook.com/Frederictonchristianacademy"></a></li>
 						<li><a class="social_twitter rounded-x" data-original-title="Twitter" href="https://twitter.com/MeetFCA"></a></li>
@@ -319,7 +319,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <!-- 	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script> -->
 	<script src="assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 	<script src="assets/plugins/modernizr.js"></script>
-<!-- 	<script src="assets/plugins/login-signup-modal-window/js/main.js"></script> <!-- Gem jQuery --> 
+<!-- 	<script src="assets/plugins/login-signup-modal-window/js/main.js"></script> -- Gem jQuery --> 
 	<script src="assets/plugins/backstretch/backstretch-ini.js"></script> <!-- promo -->
 
 	<!-- JS Page Level-->
@@ -328,7 +328,9 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <!-- 	<script src="assets/js/forms/contact.js"></script> -->
 	<script src="assets/js/plugins/pace-loader.js"></script>
 	<script src="assets/js/plugins/owl-carousel.js"></script>
-<!-- 	<script src="assets/js/plugins/style-switcher.js"></script> -->
+	<!-- GOOGLE MAP SCRIPT -->
+	
+		<!-- 	<script src="assets/js/plugins/style-switcher.js"></script> -->
 	<script src="assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"></script>
 	<script>
 		jQuery(document).ready(function() {
@@ -340,7 +342,8 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 			OwlCarousel.initOwlCarousel();
 // 			StyleSwitcher.initStyleSwitcher();
 		});
-	</script>
+	</script>	
+
 	<!--[if lt IE 9]>
 		<script src="assets/plugins/respond.js"></script>
 		<script src="assets/plugins/html5shiv.js"></script>
@@ -351,5 +354,6 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 	<!--[if lt IE 10]>
 		<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
 	<![endif]-->
+	
 </body>
 </html>

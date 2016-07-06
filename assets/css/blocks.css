@@ -1034,7 +1034,7 @@
 .service-block-light h2,
 .service-block-default p,
 .service-block-default h2 {
-	color: #555;
+	color: #000;
 }
 
 .service-block-u {
@@ -1880,7 +1880,7 @@
 ------------------------------------*/
 .call-action-v1 p {
   margin-top: 25px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 200;
   margin-bottom: 25px;
 }
