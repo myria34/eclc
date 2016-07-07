@@ -1,4 +1,4 @@
-/* Add here all your css styles (customizations) */
+/* rounded images of children */
 
 .member-photo {
 	box-sizing:border-box;
@@ -31,6 +31,3 @@
     height: 100%;
 }
 
-mar-bot20 {
-	margin-bottom: 50px;
-}

@@ -2644,9 +2644,10 @@
   overflow: hidden;
   text-align: center;
   position: relative;
-  background: url(../img/bg/img3.jpg) 50% 0 fixed;
-  font-size:16px;
-  color: white;
+  background-color: blue;
+  background: url(../img/bg/img3.jpg) 40% 0 fixed; 
+  background-repeat: no-repeat;
+  font-size:15px;
 }
 
 .parallax-counter-v4:after {
@@ -2681,6 +2682,17 @@
   font-weight: 200;
   text-transform: uppercase;
 }
+
+.parallax-counter-v4 h2 {
+/*   color: #e67e22; */
+  color: #3498db;
+  font-size: 25px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+
+
 
 /*--------------------------------------------------
 	[17. Flat Background Block]
