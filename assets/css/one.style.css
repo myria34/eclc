@@ -180,7 +180,7 @@ a:hover {
 
 .one-page-header .navbar-nav > li > a:hover {
   z-index: 1;
-  color: #3d67c4;
+  color: #f1c40f;
 }
 
 .one-page-header .navbar-nav > li > a:focus {
@@ -199,7 +199,7 @@ a:hover {
   z-index: 1;
   background: none;
   /*color: #72c02c !important;*/
-  color: #1e568f !important;
+  color: #3498db !important; 
 }
 
 /*Responsive Navbar*/
