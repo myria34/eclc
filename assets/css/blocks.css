@@ -2646,7 +2646,6 @@
   position: relative;
   background-color: blue;
   background: url(../img/bg/img3.jpg) 40% 0 fixed; 
-  background-repeat: no-repeat;
   font-size:15px;
 }
 
