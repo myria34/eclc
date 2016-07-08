@@ -2242,8 +2242,12 @@ img.image-md {
 }
 
 .content-xlg2 {
-	padding-top: 250px;
-	padding-bottom: 250px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.content-xlg2 p{
+	font-weight: 200;
+	font-size: 15px;
 }
 .space-md-hor {
 	padding-left: 40px;
