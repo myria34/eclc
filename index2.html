@@ -34,6 +34,9 @@
 	<link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/css/custom-cubeportfolio.css">
 	<!-- <link rel="stylesheet" href="assets/plugins/login-signup-modal-window/css/style.css">-->
 
+	<!-- Style Switcher -->
+<!-- 	<link rel="stylesheet" href="assets/css/plugins/style-switcher.css"> -->
+
 	<!-- CSS Theme -->
 	<!-- <link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color"> -->
 	 <link rel="stylesheet" href="assets/css/one.dark.css">
@@ -46,7 +49,7 @@
 The #page-top ID is part of the scrolling feature.
 The data-spy and data-target are part of the built-in Bootstrap scrollspy function.
 -->
-<body id="body" data-spy="scroll" data-target=".one-page-header">
+<body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
 
 	<!--=== Header ===-->
 	<nav class="one-page-header one-page-header-style-2 navbar navbar-default navbar-fixed-top">
@@ -99,6 +102,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 	<section class="promo-section" id="intro">
 		<!-- Fullscreen Static Image BEGIN -->
 		<div class="fullscreen-static-image fullheight">
+			<!-- Promo Content BEGIN -->
 			<div class="container valign__middle">
 				<div class="row">
 					<div class="col-sm-10 col-sm-offset-1 text-center-xs">
@@ -106,10 +110,13 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 					</div>
 				</div>
 			</div>
+			<!-- Promo Content END -->
 		</div>
+		<!-- Fullscreen Static Image END -->
 	</section>
+	<!-- Promo block END -->
 
-	<!-- == Colorful Blocks == -->
+	<!-- Colorful Blocks -->
 	<section class="container-fluid" id="about">
 		<div class="row no-gutter equal-height-columns margin-bottom-0">
 			<!-- BLOCK 1 -->
@@ -140,19 +147,19 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 			</div>
 		</div>        
 	</section>
-	<!-- == End Colorful Blocks == -->
-	
-	<!-- == Testimony == -->
+	<!-- End Colorful Blocks -->
+
+
+	<!-- TESTIMONY -->
 	<section>
 		<div class="call-action-v1 bg-color-orange">
 			<div class="container">
 				<div class="call-action-v1-box ">
 					<div class="row">
 						<div class="col-md-1"> </div>
-							<div class="col-md-10 text-center">
-								<div class="title-v1"> 
+							<div class="col-md-10 text-center"> 
 							<h1 style="color: #fff"> Testimonial </h1>
-								</div>
+						
 							<p>“Four of my children have attended ECLC.  God has a wonderful way of exceeding our expectations and this is true of my family’s experience with ECLC.  I counted on quality teaching in a professional and safe environment when I enrolled them, but what I did not anticipate was the love that would be lavished on them, the freedom to learn according to their interests and the education they would receive about the people and the world beyond the classroom.  My childrens’ creativity has been greatly encouraged and they become increasingly more community-minded as they develop relationships with the young, the old, the poor, the needy, those who live close by and those who have come from far away.  Most importantly, I have the pleasure of witnessing my childrens’ faith in Christ grow and mature daily.  Knowing they are in such good hands has taken away any anxiety I had about returning to the workforce.  ECLC will forever hold a special place in our hearts."</p>
 							<p>— Krista (ECLC Parent)</p>
 </div>
@@ -161,35 +168,34 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 				</div>
 			</div>
 		</div>
-	</section>	
-	<!-- == Why ECLC == -->
-	<section>
-		<div class="bg-big-image">
-			<div class="container content-xlg2">
-				<div class="row">
-					<!-- <div class="col-md-9 col-xs-1 md-margin-top-100 md-margin-bottom-100"> </div> -->
-					<div class="col-lg-4 col-md-4 col-xs-11">
-						<div class="title-v1"> 
+		<!-- End TESTIMONY -->
+
+		<!-- Parallax PIC -->
+		<div class="service-block-yellow">
+			<div class="parallax-counter-v4 parallaxBg1" id="portfolio">
+				<div class="container content-xlg">
+					<div class="row">
+						<div class="col-md-9 col-xs-1 md-margin-top-50 md-margin-bottom-50"> </div>
+						<div class="col-md-3 col-xs-12"> 
 							<h2> Why choose ECLC? </h2><br>
 						
-						
-						<div class="text-left">
-							<ul style="list-style: none"> 
-							<li style="margin-bottom: 10px"><i class="fa fa-check" aria-hidden="true"></i> Thoughtful, caring, highly qualified staff who love working with children.</li>
+							<div class="text-left">
+								<p>:: Thoughtful, caring, highly qualified staff who love working with children.</p>
 
-							<li style="margin-bottom: 10px"><i class="fa fa-check" aria-hidden="true"></i> Expansive outdoor areas with safe, fun, play structures that will exceed your expectations.</li>
+								<p>:: Expansive outdoor areas with safe, fun, play structures that will exceed your expectations.</p>
 
-							<li><i class="fa fa-check" aria-hidden="true"></i> An exceptional educational curriculum that is fun and exciting for young learners.</li>
-							</ul>
-						</div>
-						</div>
-					</div> 	
-				</div>
-			</div>
-		</div>
-	</section> 
+								<p>:: An exceptional educational curriculum that is fun and exciting for young learners.</p>
+							</div>
+						</div> 		
+					</div><!--/end row-->
+				</div><!--/end container-->
+			</div><!--/end parallax-->
+		</div><!--/end service block-->
+		<!-- End Parallax PIC -->
+	</section> <!-- END TESTIMONY -->
+	<!--  About Section -->
 
-	<!-- == Programs == -->
+	<!-- Services Section -->
 	<section id="services">
 		<div class="bg-color-purple">
 			<div class="container content-sm">
@@ -245,8 +251,9 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 			</div>
 		</div>
 	</section>
+	<!-- End Services Section -->
 	
-	<!-- == Colorful Blocks2 == -->
+	<!-- Colorful Blocks2 -->
 	<section class="container-fluid">
 		<div class="row no-gutter equal-height-columns margin-bottom-0">
 		<!-- BLOCK 1 -->
@@ -292,9 +299,10 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 				</div>
 			</div>
 		</div>        
-	</section>   
-	
-	<!-- == CONTACT AND MAP BEGIN == -->
+	</section>
+	<!-- End Colorful Blocks -->
+   
+	<!-- CONTACT AND MAP BEGIN -->
 	<section id="contact" class="contacts-section2 bg-color-blue">
 		<div class="container content">
 			<div class="title-v1">
@@ -327,8 +335,9 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 			</div> <!-- end row -->
 		</div> <!-- end container -->
 	</section>
-	
-	<!-- == Footer == -->
+	<!-- CONTACT AND MAP END -->
+
+	<!-- Footer simple BEGIN -->
 	<section class="footer-simple bg-color-dark">
 		<div class="container">
 			<div class="row">
@@ -344,6 +353,8 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 			</div>
 		</div>
 	</section>
+	<!-- Footer simple END -->
+<!-- End Contact Section -->
 
 	<!-- JS Global Compulsory -->
 	<script src="assets/plugins/jquery/jquery.min.js"></script>
@@ -361,7 +372,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <!-- 	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script> -->
 	<script src="assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 	<script src="assets/plugins/modernizr.js"></script>
-<!-- 	<script src="assets/plugins/login-signup-modal-window/js/main.js"></script> -- Gem jQuery --> 
+<!-- 	<script src="assets/plugins/login-signup-modal-window/js/main.js"></script>--> <!-- Gem jQuery --> 
 	<script src="assets/plugins/backstretch/backstretch-ini.js"></script> <!-- promo -->
 
 	<!-- JS Page Level-->
